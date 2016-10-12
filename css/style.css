@@ -1,0 +1,131 @@
+body {
+    background-color: #D3D3D3;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+
+.header {
+    text-align: center;
+    background-color: #303030;
+    margin: 0;
+}
+
+img.Trove {
+    width:50%;
+}
+
+.searchbar {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 90%;
+    height: 25px;
+    border: 2px solid #303030;
+    border-radius: 1px;
+    font-size: 11px;
+    padding: 12px 0px 12px 0px;
+}
+
+#searchheader {
+    font-family: "Helvetica", Times, serif;
+    font-size: 30px;
+    padding: 12px 0px 12px 0px;
+}
+
+button#searchbtn {
+    height: 40px;
+    width: 250px;
+    display: inline-block;
+    background-color: grey;
+}
+
+button#random {
+    height: 40px;
+    width: 250px;
+    display: inline-block;
+    background-color: grey;
+}
+
+ul {
+    background-color: #303030;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 188px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.invis{
+    display: none;
+}
+
+.errormsg{
+    color: red;
+}
+
+.msg{
+    color: green;
+}
+
+#messages {
+    height: 120px;
+    margin-left: 50px;
+}
+
+#tree {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#output {
+    display: inline-block;
+    float: left;
+    width: 46%;
+    margin: 2%;
+    padding: 0%;
+}
+
+#output2 {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#output3 {
+    clear: both;
+	padding: 50px;
+    text-align: center;
+}
+
+/* Trove Green: #629644 */
